@@ -9,7 +9,7 @@ function evalute(equation) {
         '×': '*',
         '÷': '/'
         }
-    )
+    );
 
     for (let [key, value] of properties) {
         var equation = equation.replace(key, value);

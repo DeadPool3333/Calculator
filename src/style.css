@@ -34,24 +34,23 @@ body {
 }
 
 input[type=button] {
-    border-radius: 50%;
-    margin: 3px;
-}
-
-.gray {
     width: 60px;
     height: 60px;
     float: left;
     padding: 0;
-    margin: 5;
     box-sizing: border-box;
-    background-color: rgb(88, 87, 85);
+    border-radius: 50%;
+    margin: 3px;
     border: none;
     font-size: 30px;
     line-height: 30px;
     font-weight: 700;
     color: white;
     cursor: pointer;
+}
+
+.gray {
+    background-color: rgb(88, 87, 85);
 }
 
 .gray:hover {
@@ -59,24 +58,16 @@ input[type=button] {
 }
 
 .yellow {
-    width: 60px;
-    height: 60px;
-    float: left;
-    padding: 0;
-    margin: 5;
-    box-sizing: border-box;
     background-color: orange;
-    border: none;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 700;
-    color: white;
-    cursor: pointer;
 }
 
 .yellow:hover {
     background-color: rgb(218, 214, 214);
     color: orange;
+}
+
+.blue {
+    background-color: tomato;
 }
 
 input[type=text] {
@@ -93,9 +84,4 @@ input[type=text] {
     font-size: 60px;
     line-height: 60px;
     margin: 0 25px;
-}
-
-.blue {
-    background-color: tomato;
-    color: white;
 }
