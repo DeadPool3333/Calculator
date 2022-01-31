@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <title>Calculator</title>
-       <meta charset="utf-8">
-       <link rel="stylesheet" href="style.css" type="text/css">
-       <script src="script.js"></script>
-   </head>
-   <body>
-      <div class="container">
-        <form name="form">
-           <div class="display">
-               <input type="text" placeholder="0" name="display_result">
-           </div>
-           <div class="buttons">
-               <div class="row">
-                   <input type="button" class="gray" name="b7" value="7" onclick="func(b7.value)">
-                   <input type="button" class="gray" name="b8" value="8" onclick="func(b8.value)">
-                   <input type="button" class="gray" name="b9" value="9" onclick="func(b9.value)">
-                   <input type="button" class="yellow" name="bdiv" value="÷" onclick="func(bdiv.value)">
-               </div>
-               <div class="row">
-                   <input type="button" class="gray" name="b4" value="4" onclick="func(b4.value)">
-                   <input type="button" class="gray" name="b5" value="5" onclick="func(b5.value)">
-                   <input type="button" class="gray" name="b6" value="6" onclick="func(b6.value)">
-                   <input type="button" class="yellow" name="bmulti" value="×" onclick="func(bmulti.value)">
-               </div>
-               <div class="row">
-                   <input type="button" class="gray" name="b1" value="1" onclick="func(b1.value)">
-                   <input type="button" class="gray" name="b2" value="2" onclick="func(b2.value)">
-                   <input type="button" class="gray" name="b3" value="3" onclick="func(b3.value)">
-                   <input type="button" class="yellow" name="bminus" value="−" onclick="func(bminus.value)">
-               </div>
-               <div class="row">
-                   <input type="button" class="gray" name="b0" value="0" onclick="func(b0.value)">
-                   <input type="button" class="gray" name="bdot" value="." onclick="func(bdot.value)">
-                   <input type="button" class="yellow" value="=" onclick="evalute(display_result.value)">
-                   <input type="button" class="yellow" name="bplus" value="+" onclick="func(bplus.value)">
-               </div>
-           </div>
-        </form>
-      </div>
-   </body>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <form name="form">
+                <div class="display">
+                    <input type="text" placeholder="0" name="display_result">
+                </div>
+                <div class="buttons">
+                    <div class="row">
+                        <input type="button" class="gray" name="b7" value="7" onclick="func(b7.value)">
+                        <input type="button" class="gray" name="b8" value="8" onclick="func(b8.value)">
+                        <input type="button" class="gray" name="b9" value="9" onclick="func(b9.value)">
+                        <input type="button" class="yellow" name="bdiv" value="÷" onclick="func(bdiv.value)">
+                    </div>
+                    <div class="row">
+                        <input type="button" class="gray" name="b4" value="4" onclick="func(b4.value)">
+                        <input type="button" class="gray" name="b5" value="5" onclick="func(b5.value)">
+                        <input type="button" class="gray" name="b6" value="6" onclick="func(b6.value)">
+                        <input type="button" class="yellow" name="bmulti" value="×" onclick="func(bmulti.value)">
+                    </div>
+                    <div class="row">
+                        <input type="button" class="gray" name="b1" value="1" onclick="func(b1.value)">
+                        <input type="button" class="gray" name="b2" value="2" onclick="func(b2.value)">
+                        <input type="button" class="gray" name="b3" value="3" onclick="func(b3.value)">
+                        <input type="button" class="yellow" name="bminus" value="−" onclick="func(bminus.value)">
+                    </div>
+                    <div class="row">
+                        <input type="button" class="gray" name="b0" value="0" onclick="func(b0.value)">
+                        <input type="button" class="gray" name="bdot" value="." onclick="func(bdot.value)">
+                        <input type="button" class="yellow" value="=" onclick="evalute(display_result.value)">
+                        <input type="button" class="yellow" name="bplus" value="+" onclick="func(bplus.value)">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
 </html>
